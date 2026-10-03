@@ -10,9 +10,9 @@ const projects = {
   supplytrack: {
     category: 'WEB APPLICATION / CASE STUDY 01',
     title: 'SupplyTrack',
-    description: 'A web-based supply management system concept for bringing inventory, purchasing, suppliers, and reporting into one clear workflow.',
-    features: ['Inventory management', 'Purchase order handling', 'Supplier management', 'Order tracking', 'Reports and analytics', 'Demand forecasting'],
-    stack: ['Python', 'Django', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+    description: 'A supply management system with demand forecasting using Linear Regression to support inventory planning and purchasing decisions.',
+    features: ['Inventory management', 'Purchase order handling', 'Supplier management', 'Order tracking', 'Reports and analytics', 'Linear Regression demand forecasting'],
+    stack: ['Python', 'Django', 'MySQL', 'Linear Regression', 'HTML', 'CSS', 'JavaScript'],
   },
   ronda: {
     category: 'MOBILE + WEB / CASE STUDY 02',
