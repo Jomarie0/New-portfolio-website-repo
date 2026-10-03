@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Résumé for Jo, BSIT graduate and aspiring full-stack developer in the Philippines.">
+  <title>Jo | Résumé</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    :root { color-scheme: light; --ink: #20283a; --muted: #616e80; --line: #e0e4ea; --primary: #5664cc; font-family: 'Manrope', 'Segoe UI', sans-serif; }
+    * { box-sizing: border-box; }
+    body { max-width: 850px; margin: 0 auto; padding: 52px 58px; color: var(--ink); font-size: 11px; line-height: 1.65; }
+    a { color: inherit; }
+    .resume-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 17px; }
+    h1 { margin: 0; font-size: 30px; line-height: 1.2; }
+    .role { margin: 4px 0 0; color: var(--primary); font-size: 12px; font-weight: 700; }
+    .contact { color: var(--muted); font-size: 9px; text-align: right; }
+    .contact p { margin: 0; }
+    .summary { margin: 18px 0 21px; color: var(--muted); font-size: 11px; }
+    section { margin-top: 18px; }
+    h2 { margin: 0 0 9px; border-bottom: 1px solid var(--line); padding-bottom: 5px; color: var(--primary); font-family: 'DM Mono', monospace; font-size: 10px; font-weight: 500; }
+    h3 { margin: 0; font-size: 11px; }
+    .item { margin-top: 10px; }
+    .item-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+    .item-head span, .sub { color: var(--muted); font-size: 9px; }
+    .item p { margin: 3px 0; color: var(--muted); }
+    ul { display: flex; flex-wrap: wrap; gap: 4px 17px; margin: 6px 0 0; padding-left: 15px; color: var(--muted); }
+    .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 25px; }
+    .skills p { margin: 2px 0; color: var(--muted); }
+    .download { position: fixed; top: 16px; right: max(16px, calc((100vw - 850px) / 2)); border: 0; border-radius: 3px; padding: 10px 14px; background: #5664cc; color: white; font: 700 10px 'Manrope', sans-serif; cursor: pointer; }
+    @media (max-width: 600px) { body { padding: 65px 23px 30px; } .resume-top { flex-direction: column; } .contact { text-align: left; } .download { position: absolute; } .skills { grid-template-columns: 1fr; } }
+    @media print { body { max-width: none; padding: 0; font-size: 10px; } .download { display: none; } section { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <button class="download" type="button" onclick="window.print()">Save as PDF</button>
+  <header class="resume-top">
+    <div><h1>Jo</h1><p class="role">BSIT Graduate | Aspiring Full-Stack Developer</p></div>
+    <div class="contact"><p>Philippines</p><p>Email address to be added</p><p>GitHub and LinkedIn links to be added</p></div>
+  </header>
+  <p class="summary">BSIT graduate interested in building practical web and mobile systems and exploring data through academic analysis projects. Hands-on project experience with Python, Django, React Native, REST APIs, relational databases, automation workflows, pandas, and Matplotlib. Seeking a full-time entry-level role in software development or data analysis.</p>
+  <section><h2>TECHNICAL SKILLS</h2><div class="skills">
+    <div><h3>Frontend</h3><p>HTML, CSS, JavaScript, Bootstrap</p></div>
+    <div><h3>Backend</h3><p>Python, Django, Django REST Framework</p></div>
+    <div><h3>Databases</h3><p>MySQL, SQLite, PostgreSQL</p></div>
+    <div><h3>Productivity &amp; Design</h3><p>Word / Docs, Excel, PowerPoint, Canva, Figma</p></div>
+    <div><h3>Development Tools</h3><p>Git, GitHub, VS Code</p></div>
+    <div><h3>Data Analysis</h3><p>Python, pandas, Matplotlib, Jupyter notebooks</p></div>
+  </div></section>
+  <section><h2>PROJECTS</h2>
+    <article class="item"><div class="item-head"><h3>SupplyTrack</h3><span>Web-Based Supply Management System</span></div><p>Supply management system covering stock visibility, procurement, suppliers, and reporting workflows.</p><ul><li>Inventory management, purchase orders, and supplier management</li><li>Order tracking, reports and analytics, and demand forecasting</li><li>Python, Django, MySQL, HTML, CSS, JavaScript</li></ul></article>
+    <article class="item"><div class="item-head"><h3>R.O.N.D.A.</h3><span>Real-time Online Network for Driver Accountability</span></div><p>Fleet monitoring concept combining mobile driver sessions and web-based administration.</p><ul><li>GPS tracking, route monitoring, SOS notifications, and vehicle inspections</li><li>React Native, Django, REST API, PostgreSQL</li></ul></article>
+    <article class="item"><div class="item-head"><h3>Automated LPR Generator</h3><span>Student Record and Report Automation</span></div><p>Workflow concept for processing Excel data and producing organized reports in batches.</p><ul><li>Excel processing, bulk report generation, and ZIP export</li><li>Python, Django, OpenPyXL</li></ul></article>
+    <article class="item"><div class="item-head"><h3>Data Analysis &amp; Visualization</h3><span>College Activities</span></div><p>Explored UK road-accident data from 2019–2022, examining weather, road-surface, severity, and area patterns, and plotted a sample population dataset.</p><ul><li>CSV exploration and missing-value/category checks with pandas</li><li>Python, pandas, Matplotlib, Jupyter</li><li><a href="https://github.com/Jomarie0/ITD_ACTIVITIES">ITD Activities repository</a></li><li><a href="https://github.com/Jomarie0/ITD-Activities-Compilation">Activities compilation repository</a></li></ul></article>
+  </section>
+  <section><h2>EDUCATION</h2><article class="item"><div class="item-head"><h3>Bachelor of Science in Information Technology</h3><span>Graduated</span></div><p>BSIT Graduate · Philippines</p></article></section>
+  <section><h2>CERTIFICATIONS</h2><ul><li>Cisco Introduction to Cybersecurity</li><li>Cisco Ethical Hacker</li><li>Cisco Networking Basics</li></ul></section>
+  <section><h2>INTERESTS</h2><p class="sub">Web systems · Mobile applications · Business process automation · Database management · Data analysis and visualization</p></section>
+</body>
+</html>
